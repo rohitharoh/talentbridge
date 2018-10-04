@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+	
+#maindiv{
+    width:100%;
+ }
+ 
+ #imagediv{
+	
+     float:right; 
+    }
+
+#imageGallery {
+	width:1180px;
+    height:710px;
+	margin-top:20px;
+    margin-bottom:10px;
+	float:right;
+	}
+
+#buttondiv{
+    margin-top:20px;
+}
+
+input.left{
+    float: left; 
+    margin-left:70px;
+}
+input.right{
+    float: right; 
+    margin-right:70px;
+}   
+
+
+#leftdiv{
+	width:20%;
+     float:left;
+     margin-top:14px; 
+     margin-left:10px;
+}
+
+
+.ll{
+	padding-top:30px; 
+	padding-left:10px; 
+	font-size:60px; 
+	text-align:left; 
+}
+
+ #a{
+	width:100px;
+ padding:20px;
+ text-align:left;
+ font-size:19px;
+ font-family:calibri-light;
+ color:#696969;
+ line-height:2.04;
+}
+
+
+#twi{
+	padding:20px; 
+	padding-top:120px
+
+}
+</style>
+</head>
+</html>
