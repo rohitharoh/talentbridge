@@ -1,3 +1,9 @@
+html, body, {
+	width:100%;
+	height:100%;
+}
+
+
 #maindiv{
     width:100%;
  }
@@ -7,26 +13,14 @@
      float:right; 
     }
 
-#imageGallery {
+.item, .corousel-inner, .corousel-caption {
 	width:1170px;
-    height:710px;
-	margin-top:20px;
+    height:720px;
+	padding-top:10px;
+	margin-top:10px;
     margin-bottom:10px;
 	float:right;
 	}
-
-#buttondiv{
-    margin-top:20px;
-}
-
-input.left{
-    float: left; 
-    margin-left:10px;
-}
-input.right{
-    float: right; 
-    margin-right:10px;
-}   
 
 
 #leftdiv{
@@ -37,30 +31,94 @@ input.right{
 }
 
 
-.ll{
+h1, .ll{
 	padding-top:30px; 
 	padding-left:10px; 
 	font-size:60px; 
-	text-align:left; 
-}
-
- #a{
+	text-align:left;
+	font-family:fantasy;
+	font-style:Blippo; 
+	}
+/*
+ li a{
 	width:100px;
  padding:20px;
  text-align:left;
- font-size:14px;
- font-family:calibri-light;
- line-height:2.04;
- 
+ line-height:1.44;
+ color: #666666;
+ font-size: 12px;
+ font-family: "Poppins", sans-serif;
+ text-transform: uppercase;
+ font-weight: 600;
  
 }
 
-a:hover.qa{
+*/
+
+ul.menu-list, li a:before{
 	color:#D1B894;
+	display: inline-block;
+    float: left;
+    content: '';
+    width: 0;
+    height: 1px;
+    margin-right: 0;
+    margin-top: 8px;
 }
 
-#twi{
-	padding:20px; 
-	padding-top:120px
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  
 }
+
+li a {
+    display: block;
+    color: #696969;
+    padding: 8px 16px;
+    text-decoration: none;
+	line-height:1.44px;
+	font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Change the link color on hover */
+ul.menu-list li a:hover {
+  
+   color:#008B8B;
+   text-decoration:none;
+}
+
+
+#twi {
+	padding:10px; 
+	padding-top:300px;
+	padding-left:15px;
+    margin-top:10px;
+    Border:2px;
+}
+.fa-stack:hover {
+color:#008B8B;
+    }
+    
+    p {
+    font-size:14px;
+    }
+    
+   
+    
+    
+
+
+
+
+
+
+
+
