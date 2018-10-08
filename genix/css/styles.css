@@ -1,6 +1,6 @@
 html, body, {
 	width:100%;
-	height:100%;
+
 }
 
 
@@ -9,10 +9,21 @@ html, body, {
  }
  
  #imagediv{
-	
+
      float:right; 
     }
 
+	#portimg{
+		width:1070px;
+    height:510px;
+	padding-top:10px;
+	margin-top:10px;
+    margin-bottom:10px;
+	float:left;
+	}
+	
+	
+	
 .item, .corousel-inner, .corousel-caption {
 	width:1170px;
     height:720px;
@@ -26,6 +37,7 @@ html, body, {
 #leftdiv{
 	width:20%;
      float:left;
+	 position:fixed;
      margin-top:14px; 
      margin-left:10px;
 }
@@ -111,6 +123,11 @@ color:#008B8B;
     font-size:14px;
     }
     
+   .fa-stack{
+	   border:2px;
+	   border-bottom-style:none;
+	   border-color:transparent;
+   }
    
     
     

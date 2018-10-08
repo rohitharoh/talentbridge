@@ -1,0 +1,320 @@
+
+section.page-banner-section {
+width:80%;
+    padding: 100px;
+   
+	float:right;
+    background-color: rgb(17, 17, 17);
+    background-image: url("../upload/banners/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+     background-size: cover;
+}
+
+
+section.page-banner-section .border-line-box {
+    height: 300px;
+    border: 2px solid #c7ad88;
+    border-bottom: none;
+   
+}
+
+section.page-banner-section .page-box-title {
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+
+
+ section.about-section {
+ width:100%;
+    padding: 70px 0;
+    position: relative;
+    float:right;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+			
+			
+section.about-section .container {
+    
+   width:80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    float:right;
+}
+
+.row {
+ 
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+  .col-sm-6 {
+  width:50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float:right;
+}
+
+section.statistic-section {
+ width:80%;
+    padding: 100px 0;
+    background: #333333;
+     float:right;
+}
+
+
+.container-fluid {
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+     float:right;
+}
+section.statistic-section .statistic-box {
+     width:100%;
+    overflow: hidden;
+     float:right;
+}
+
+section.statistic-section .statistic-post {
+    width: 19.9999%;
+    margin-bottom: 30px;
+     
+    padding-left: 30px;
+     float:right;
+}
+
+section.statistic-section .statistic-post i {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+     float:right;
+}
+
+
+section.statistic-section .statistic-post span.timer {
+    color: #008B8B;
+    font-size: 46px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin: 0;
+     float:right;
+}
+
+
+
+
+section.statistic-section .statistic-post .fa {
+ color: #fff;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+section.team-section .container-fluid .title-section .heading2, h2, h2 {
+    color: #222222;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0 0 40px;
+    text-align:center;
+}
+
+section.team-section .container-fluid .title-section h1{
+	padding-top:10px; 
+	 
+	font-size:60px; 
+	text-align:center;
+	font-family:fantasy;
+}
+
+section.team-section {
+   
+   width:80%;
+  
+    background: #f9f9f9;
+    float:right;
+}
+
+section.team-section .team-box .team-box-side .team-post {
+    
+    width: 33.3333%;
+    float: right;
+    position: relative;
+}
+
+section.team-section .team-box {
+		float:right;
+		overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+section.team-section .team-box .team-box-side .team-post .hover-team {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+section.statistic-section .statistic-post p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align:center;
+    float:right;
+}
+
+
+
+section.testimonial-section {
+	width:80%;
+    padding: 90px 0;
+    background: url("../upload/banners/2.jpg") center fixed;
+    float:right;
+}
+
+section.testimonial-section .container{
+float:right;
+	
+}
+
+
+section.testimonial-section .container .title-section white-style {
+     
+     width:100%;
+    float:right;
+    text-align: center;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+
+section.testimonial-section .testimonial-box {
+	
+    text-align: center;
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: 700;
+    color: #666;
+    padding-top: 20px;
+    z-index: 4;
+}
+
+.bx-wrapper .bx-controls-direction {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    left: 0;
+    overflow: hidden;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    position: relative;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    border-radius: 50%;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+}
+.bx-wrapper .bx-prev {
+    float: left;
+}
+
+
+
+
+
+
+
+section.clients-section {
+       
+  width:80%;
+    padding: 90px 0;
+    background: #f9f9f9;
+    float:right;
+}
+
+
+section.clients-section .clients-box {
+    max-width: 100%;
+    margin: 0 auto;
+    float:right;
+}
+
+
+section.clients-section .clients-box ul.client-list {
+    overflow: hidden;
+    width:100%;
+
+}
+
+section.clients-section .clients-box ul.client-list li {
+    float: right;
+    width: 16.666666%;
+    list-style: none;
+    text-align: center;
+    
+}
+
+section.clients-section .clients-box ul.client-list li a {
+    padding: 10px 30px;
+    text-align: center;
+    opacity: 0.4;
+    width: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
