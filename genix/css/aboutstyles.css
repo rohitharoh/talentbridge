@@ -4,7 +4,7 @@
 
 section.page-banner-section {
     width:80%;
-    padding: 100px;
+    padding: 80px;
 	float:right;
     background-color: rgb(17, 17, 17);
     background-image: url("../upload/banners/1.jpg");
@@ -114,9 +114,9 @@ section.about-section .container {
 
 
 section.statistic-section {
- width:80%;
-    padding-top:100px;
-    padding-bottom:10px;
+    width:80%;
+    padding-top:80px;
+    padding-bottom:80px;
     background: #333333;
      float:right;
      margin-bottom:0;
@@ -140,7 +140,7 @@ section.statistic-section .statistic-box {
 section.statistic-section .statistic-post {
     width: 19.9999%;
  
-     text-align:center;
+    text-align:center;
     padding-left: 30px;
     float:right;
 }
@@ -148,72 +148,31 @@ section.statistic-section .statistic-post {
 section.statistic-section .statistic-post i {
     color: #fff;
     font-size: 80px;
-    margin-bottom: 15px;
-    
+  
+    margin:0px;
+    margin-bottom:0px;
 }
 
 
 section.statistic-section .statistic-post span.timer {
     color: #008B8B;
-    font-size: 46px;
+    font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-   
+   margin:0px;
 }
 
 
 section.statistic-section .statistic-post .fa {
  color: #fff;
     display: inline-block;
-    font: normal normal normal 40px/1 FontAwesome;
-
+    font: normal normal normal 30px/1 FontAwesome;
+margin:0px;
 }
 
+/* **************************************************************** TEAM SECTION **************************************************** */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section.team-section .container-fluid .title-section .heading2, h2, h2 {
-    color: #222222;
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    margin: 0 0 40px;
-    text-align:center;
-}
-
-section.team-section .container-fluid .title-section h1{
-	padding-top:5px; 
-	 
-	font-size:50px; 
-	text-align:center;
-	font-family:fantasy;
-}
 
 section.team-section {
    
@@ -223,44 +182,29 @@ section.team-section {
     float:right;
 }
 
-section.team-section .team-box .team-box-side .team-post {
-    
-    width: 33.3333%;
-    float: right;
-    position: relative;
-}
 
-section.team-section .team-box {
-		float:right;
-		overflow: hidden;
-        overflow-x: hidden;
-        overflow-y: hidden;
-}
-*, *::after, *::before {
-    box-sizing: border-box;
-}
 
-section.team-section .team-box .team-box-side .team-post .hover-team {
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    height: 100%;
-    background: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+section.team-section .container-fluid .title-section h1{
+	padding-top:5px; 
+	 
+	font-size:50px; 
+	text-align:center;
+	font-family:fantasy;
 }
 
 
 
+section.team-section .container-fluid .title-section .heading2, h2, h2 {
+    color: #222222;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 
+    text-align:center;
+}
 
-/* ******************************************* MEMBERS SECTION ***************************************************************8 */
+/* ************************************************ MEMBER SECTION ************************************************************************ */
+
 
 section.mem {
        
@@ -271,81 +215,81 @@ section.mem {
 
 
 section.mem .memdiv {
+    float:right;
     max-width: 100%;
     margin: 0 auto;
-    float:right;
+  }
+
+.blocks_on_image {
+		    opacity: 1;
+		    display: block;
+		    
+		    
+		    transition: .5s ease;
+		    backface-visibility: hidden;
+                  }
+		 
+		 
+		 
+		 .middle {
+		      transition: .5s ease;
+		      opacity: 1;
+		      position: absolute;
+		      top: 50%;
+		      left: 50%;
+		      transform: translate(-50%, -50%);
+		      -ms-transform: translate(-50%, -50%);
+		      text-align: center;
+                   }
+		   
+		   
+		   
+		   
+		   img:hover.text_on_image {
+			  background-color: green;
+			  color: green;
+			  font-size: 16px;
+			  padding: 16px 32px;
+                    }
+		   
+		   
+		   .container:hover .blocks_on_image {
+                              opacity: 0.3;
+                    }
+
+                   .container:hover .middle {
+                                opacity: 1;
+							}
+		
+                  .container {
+                           position: relative;
+                           width: 50%;
+                    }
+                    .container:hover.text_on_image{
+						opacity:0;
+					}
+					.container.text_on_image{
+						opacity:1;
+					}
+						
+									
+						
+		   .text_on_image:hover{
+			   opacity=0.5;
+		   }
+		   .text_on_image{
+			   opacity=0;
+		   }
+
+.hover_link
+{
+	color:white;
 }
 
 
-section.mem .memdiv ul.mem-list {
-    overflow: hidden;
-    width:100%;
-
-}
-
-section.mem .memdiv ul.mem-list li {
-    float: left;
-    width: 33.333%;
-    list-style: none;
-    text-align: center;
-    
-}
-
-section.mem .memdiv .mem-list .memimg .hover-team {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-
-}
-
- section.mem .memdiv .mem-list .memimg .hover-team .inner-team {
-
-    z-index: 2;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    margin-top: -25px;
-
-}
-
-/* ******************************************** ****************************************************************** */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*clients*/
+/* *******************************************************clients  **************************************************************************    */
 
 section.our-clients {
        
@@ -390,11 +334,30 @@ section.our-clients .clientsdiv ul.client-list li a:hover
 opacity:1;
 }
 
+/* ************************************ Image last but one row ***************************************** */
 
 
 
-
-
+ .scroll{
+	           position: absolute;
+		   top:1990px;
+		   right: 250px;
+		   color: white;
+		   padding-left: 20px;
+		   padding-right: 20px;
+		 }  
+		 .scroll2{
+	           position: absolute;
+		   top:2100px;
+		   right: 120px;
+		   color: white;
+		   padding-left: 20px;
+		   padding-right: 20px;
+		 }  
+	
+	
+	
+	
 
 
 
