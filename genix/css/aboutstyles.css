@@ -86,7 +86,7 @@ section.page-banner-section p {
 			
 section.about-section .container {
     
-   width:80%;
+    width:80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -217,8 +217,17 @@ section.mem {
 section.mem .memdiv {
     float:right;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 -25px;
+    width:100%;
   }
+
+
+section.mem .memdiv .container {
+     width:50%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
 
 .blocks_on_image {
 		    opacity: 1;
@@ -339,7 +348,7 @@ opacity:1;
 
 
  .scroll{
-	           position: absolute;
+	       position: absolute;
 		   top:1990px;
 		   right: 250px;
 		   color: white;
@@ -347,7 +356,7 @@ opacity:1;
 		   padding-right: 20px;
 		 }  
 		 .scroll2{
-	           position: absolute;
+	       position: absolute;
 		   top:2100px;
 		   right: 120px;
 		   color: white;
@@ -356,10 +365,23 @@ opacity:1;
 		 }  
 	
 	
-	
+	/* ****************************************** text corousel ***************************************** */
 	
 
+section.texthover-section {
+       
+    width:80%;
+    background: #f9f9f9;
+    float:right;
 
+}
+
+
+section.texthover-section .texthoverdiv {
+    max-width: 100%;
+   
+ 
+}
 
 
 
