@@ -1,0 +1,153 @@
+section.portfolio{
+width:100%;
+float:right;
+padding-left:10px;
+padding-top:20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 5px 5px;
+    width:100%;
+
+}
+
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.content {
+    background-color: white;
+    padding: 10px transparent;
+  
+}
+
+
+.show {
+    display: block;
+ 
+}
+
+
+.btn {
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  text-decoration:none;
+  border-color:#FFFFFF;
+ 
+}
+
+
+
+.btn active {
+ 
+  box-shadow: 0px 0px #fff;
+   border-color:#FFFFFF;
+   }
+   
+
+
+
+.hoverimageborder {
+		    opacity: 1;
+		    display: block;
+		    
+		    
+		    transition: .5s ease;
+		    backface-visibility: hidden;
+                  }
+		 
+		 
+		 
+		 .middle {
+		      transition: .5s ease;
+		      opacity: 1;
+		      position: absolute;
+		      top: 50%;
+		      left: 50%;
+		      transform: translate(-50%, -50%);
+		      -ms-transform: translate(-50%, -50%);
+		      text-align: center;
+                   }
+		   
+		   
+		   
+		   
+		   img:hover.text_on_image {
+			  background-color: green;
+			  color: green;
+			  font-size: 16px;
+			  padding: 16px 32px;
+                    }
+		   
+		   
+		   .column:hover .hoverimageborder {
+                              opacity: 0.3;
+                    }
+
+                   .column:hover .middle {
+                                opacity: 1;
+							}
+		
+                  .column {
+                           position: relative;
+                           
+                    }
+                    .column:hover.text_on_image{
+						opacity:0;
+					}
+					.column.text_on_image{
+						opacity:1;
+					}
+						
+									
+						
+		   .text_on_image:hover{
+			   opacity=0.5;
+		   }
+		   .text_on_image{
+			   opacity=0;
+		   }
+
+

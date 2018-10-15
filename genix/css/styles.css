@@ -8,19 +8,14 @@ html, body, {
     width:100%;
  }
  
+ /* ******************************** image div ***************************************** */
+ 
  #imagediv{
-
+     width:75%;
      float:right; 
+     padding-right:15px;
     }
 
-	#portimg{
-		width:1070px;
-    height:510px;
-	padding-top:10px;
-	margin-top:10px;
-    margin-bottom:10px;
-	float:left;
-	}
 	
 	
 	
@@ -33,6 +28,33 @@ html, body, {
 	float:right;
 	}
 
+
+
+#twi {
+	padding:10px; 
+	padding-top:300px;
+	padding-left:15px;
+    margin-top:10px;
+    Border:2px;
+}
+.fa-stack:hover {
+color:#008B8B;
+    }
+    
+    p {
+    font-size:14px;
+    }
+    
+   .fa-stack{
+	   border:2px;
+	   border-bottom-style:none;
+	   border-color:transparent;
+   }
+   
+    
+    
+
+/* ****************** left div ********************************** */
 
 #leftdiv{
 	width:20%;
@@ -51,21 +73,7 @@ h1, .ll{
 	font-family:fantasy;
 	font-style:Blippo; 
 	}
-/*
- li a{
-	width:100px;
- padding:20px;
- text-align:left;
- line-height:1.44;
- color: #666666;
- font-size: 12px;
- font-family: "Poppins", sans-serif;
- text-transform: uppercase;
- font-weight: 600;
- 
-}
 
-*/
 
 ul.menu-list, li a:before{
 	color:#D1B894;
@@ -100,40 +108,12 @@ li a {
     font-weight: 600;
 }
 
-/* Change the link color on hover */
+
 ul.menu-list li a:hover {
   
    color:#008B8B;
    text-decoration:none;
 }
-
-
-#twi {
-	padding:10px; 
-	padding-top:300px;
-	padding-left:15px;
-    margin-top:10px;
-    Border:2px;
-}
-.fa-stack:hover {
-color:#008B8B;
-    }
-    
-    p {
-    font-size:14px;
-    }
-    
-   .fa-stack{
-	   border:2px;
-	   border-bottom-style:none;
-	   border-color:transparent;
-   }
-   
-    
-    
-
-
-
 
 
 
